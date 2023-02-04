@@ -5,7 +5,7 @@ import 'package:twitter_clone/theme/pallete.dart';
 
 class UIConstants {
   static AppBar appBar() {
-     return AppBar(
+    return AppBar(
       title: SvgPicture.asset(
         AssetsConstants.twitterLogo,
         color: Pallete.blueColor,
@@ -14,4 +14,10 @@ class UIConstants {
       centerTitle: true,
     );
   }
+
+  static List<Widget> bottomTabBarPages = const [
+    Text('Feed screen'),
+    Text('Search screen'),
+    Text('Notification screen'),
+  ];
 }
