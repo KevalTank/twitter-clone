@@ -10,3 +10,10 @@ void showSnackBar(
     ),
   );
 }
+
+
+/// If we get keval@123.com
+/// Then it will return keval
+String getNameFromEmailId({required String emailId}) {
+  return emailId.split('@').first;
+}

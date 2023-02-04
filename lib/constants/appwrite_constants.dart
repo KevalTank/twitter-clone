@@ -9,4 +9,7 @@ class AppWriteConstatnts {
   // Earlier it was 'http://localhost:80/v1'
   // Changed because getting error for connection refused
   static const String endPoint = 'http://172.18.176.1:80/v1';
+
+  // User collection Id
+  static const String userCollectionsId = '63ddf9f7ced74ab1eff5';
 }
